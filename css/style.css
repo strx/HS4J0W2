@@ -24,7 +24,13 @@ body {
   font-size: 20px;
 }
 .footer.footer-secondary {
-  background-color: #ccc;
+  background: url(../images/footer.png) center center no-repeat;
+  background-size: 100%;
+}
+.footer.footer-tertiary {
+  /*background: #000 url(../images/footer-black.png) no-repeat center center;
+  height: 300px;*/
+  background-color: #000;
 }
 .footer-header {
   color: #0A9DE7;
@@ -53,14 +59,20 @@ body {
   font-size: 40px;
   line-height: 48px;
 }
+#five {
+  font-family: proxima-nova, sans-serif;
+  font-size: 210px;
+  line-height: 140px;
+  color: rgb(94,203,251);
+}
 
 h1,h2,h3,p {
   font-weight: normal;
-  font-family: 'proxima_nova_rgregular',sans-serif;
+  font-family: proxima-nova, sans-serif;
 }
 h1{
   font-size: 56px;
-  line-height: 58px;
+  /*line-height: 58px;*/
 }
 h2 {
   font-size: 26px;
@@ -68,6 +80,7 @@ h2 {
   margin: 7px 0;
 }
 .para {
+  display: block;
   color: #474747;
   font-size: 20px;
   margin-bottom: 0px;
