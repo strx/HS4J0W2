@@ -18,7 +18,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body onmouseover="hideImage()">
 
 <!-- Fixed navbar -->
 <nav class="navbar navbar-fixed-top">
@@ -33,12 +33,12 @@
 <div class="jumbotron">
       <div class="container">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-9">
             <h1>7 důvodů proč využít</h1>
             <p id="jumbotron-title">předprodejní síť smsticket</p>
             </div>
-            <div class="col-sm-4">
-            <img src="images/bulb-transparent.png" alt="bulb" class="img-responsive" width="200px">
+            <div class="col-sm-3">
+            <img id="show" src="images/bulb-transparent.png" alt="bulb" class="img-responsive" width="200px">
             </div>
       </div>
       </div>
@@ -47,8 +47,8 @@
 <!-- Begin page content -->
 <div class="main-content">
     <div class="container">
-        <h2 id="intro">VSTUPENKY V MOBILU</h2>
         <img src="images/telefon.png" alt="telefon" class="img-responsive" id="telefon" width="400px">
+        <h2 id="intro">VSTUPENKY V MOBILU</h2>
     </div>
 </div> <!-- End page content -->
 
@@ -62,6 +62,7 @@
     </div>
 </div> <!-- End navigation -->
 
+
 <!-- Footer -->
 <footer class="footer footer-primary">
     <div class="container">
@@ -71,6 +72,13 @@
         776 284 050</p>
     </div>
 </footer>
+
+<script>
+    hideImage: function() {
+        var image = document.getElementById("show");
+        image.style.visibility = ("hidden");
+    }
+</script>
 
 </body>
 
