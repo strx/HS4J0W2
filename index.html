@@ -18,7 +18,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 
-<body onmouseover="hideImage()">
+<body>
 
 <!-- Fixed navbar -->
 <nav class="navbar navbar-fixed-top">
@@ -33,12 +33,12 @@
 <div class="jumbotron">
       <div class="container">
         <div class="row">
-            <div class="col-sm-9">
+            <div class="col-sm-9" >
             <h1>7 důvodů proč využít</h1>
             <p id="jumbotron-title">předprodejní síť smsticket</p>
             </div>
-            <div class="col-sm-3">
-            <img id="show" src="images/bulb-transparent.png" alt="bulb" class="img-responsive" width="200px">
+            <div class="col-sm-3" id="show">
+            <img  src="images/bulb-transparent.png" alt="bulb" class="img-responsive" width="200px">
             </div>
       </div>
       </div>
@@ -72,13 +72,6 @@
         776 284 050</p>
     </div>
 </footer>
-
-<script>
-    hideImage: function() {
-        var image = document.getElementById("show");
-        image.style.visibility = ("hidden");
-    }
-</script>
 
 </body>
 
