@@ -56,21 +56,29 @@ body {
 }
 
 .jumbotron {
-  margin: 60px 0 0;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
   background-color: rgb(52,157,235);
   color: #fff;
+  padding-bottom: 20px;
+  padding-top: 30px;
 }
 .jumbotron > .container {
   vertical-align: middle;
 }
 #jumbotron-title {
   margin-top: 15px;
-  font-size: 44px;
+  font-size: 40px;
   line-height: 46px;
+}
+.jumbotron  h1 {
+  font-size: 50px;
 }
 .five {
   font-family: proxima-nova, sans-serif;
-  font-size: 210px;
+  font-size: 140px;
   line-height: 170px;
   color: rgb(94,203,251);
 }
@@ -97,9 +105,14 @@ h2 {
 .para {
   display: block;
   color: #474747;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 0px;
 }
+.para small {
+  margin-top: 20px;
+  font-size: 70%;
+}
+
 .subtitle {
   color: #474747;
   font-weight: normal;
@@ -117,8 +130,8 @@ h2 {
 }
 
 .container {
-    padding-right: 13%;
-    padding-left: 13%;
+    padding-right: 20%;
+    padding-left: 20%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -151,7 +164,26 @@ h2 {
   color: #0A9DE7;
 }
 
+#menu {
+  clear:both;
+  position:absolute;
+  left:0px;
+  width: 220px;
+}
 
+#menu li a {
+  color: rgb(52,157,235);
+}
+
+#menu li {
+  text-decoration: none;
+  font-size: 15px;
+  list-style: none;
+}
+
+.move {
+  margin-top: 20px;
+}
 
 
 
