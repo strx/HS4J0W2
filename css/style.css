@@ -89,6 +89,12 @@ body {
   }
 }
 
+@media (max-width: 1099px) {
+  #menu {
+    visibility: hidden;
+  }
+}
+
 h1,h2,h3,p{
   font-weight: normal;
   font-family: proxima-nova, sans-serif;
@@ -130,10 +136,11 @@ h2 {
 }
 
 .container {
-    /*
-    padding-right: 20%;
+    
+    /*padding-right: 20%;
     padding-left: 20%;*/
     width: 700px;
+    max-width: 90%;
     margin-right: auto;
     margin-left: auto;
 }
